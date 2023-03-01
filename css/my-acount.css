@@ -1,0 +1,412 @@
+.daftar-tunggu{
+    margin-top: 150px;
+}
+
+.daftar-tunggu .div-title{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    /* width: max-content; */
+}
+.daftar-tunggu .number{
+    background-color: #35b0a7;
+}
+
+.daftar-tunggu .title{
+    font-size: 18px;
+    font-weight: 600;
+    /* color: #35b0a7; */
+}
+.daftar-tunggu .number{
+    font-weight: 600;
+    padding: 3px 5px;
+    border-radius: 100%;
+    font-size: 14px;
+    color: #fff;
+}
+
+.daftar-tunggu .count{
+    font-size: 18px;
+    padding-top: 20px;
+    color: #535346;
+}
+
+.daftar-tunggu .container-list{
+    /* margin-top: 50px; */
+}
+.daftar-tunggu .container-list .card-daftar-kost{
+    height: max-content;
+    border: none;
+}
+.daftar-tunggu .container-list .card-daftar-kost .img-top img{
+    height:150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.daftar-tunggu .container-list .desc .lokasi{
+    font-size: 14px;
+    color: #848484;
+    margin-bottom: 3px;
+}
+
+.daftar-tunggu .container-list .desc .nama{
+    font-weight: 600;
+    font-size: 22px;
+    margin: 8px 0 13px 0;
+}
+
+.daftar-tunggu .container-list .desc .alamat{
+    font-size: 14px;
+    color: #848484;
+}
+
+.daftar-tunggu .container-list .desc .harga{
+    color: #2b2b2b;
+}
+.daftar-tunggu .container-list .col-list .row{
+    position: relative;
+}
+.daftar-tunggu .container-list .kamar_tersedia{
+    background-color: #ff5e69;
+    width: max-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 8px 0 0 22px;
+    padding: 7px;
+    font-weight: 600;
+    color: #f4f5f6;
+    font-size: 15px;
+}
+
+.daftar-tunggu .container-list .kamar_full{
+    background-color: #fff;
+    width: max-content;
+    position: absolute;
+    font-weight: 600;
+    font-size: 15px;
+    top: 0;
+    left: 0;
+    margin: 8px 22px 0;
+    padding: 7px;
+}
+
+.daftar-tunggu .container-list .tautan{
+    color: #848484;
+    margin-top: -5px;
+    margin-bottom: 4px;
+}
+
+.daftar-tunggu .container-list .kategori {
+    font-size: 14px;
+    width: fit-content;
+    padding: 4px 7px;
+    border-radius: 6px;
+    margin-top: 13px;
+}
+
+.daftar-tunggu .container-list .putri {
+    color: #eb1d80;
+    background-color: #ffecf5;
+}
+
+.daftar-tunggu .container-list .putra {
+    color: #2a7de1;
+    background-color: #d4e5f9;
+}
+
+.daftar-tunggu .container-list .putra_putri {
+    color: #7e57c5;
+    background-color: #e5ddf3;
+}
+
+.daftar-tunggu .container-list .col-list{    
+    /* border-bottom: 1px solid black; */
+    /* padding-bottom: 10px; */
+    /* background-color: red; */
+    /* background-color: red; */
+}
+
+
+.daftar-tunggu .container-list hr{
+margin-bottom: -12px;
+/* color: #e1e1e1; */
+
+}
+
+.daftar-tunggu .container-list .contact {
+    background-color: #25d165;
+    padding: 10px 18px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.daftar-tunggu .container-list .contact .wa{
+    font-size: 18px;
+}
+
+/* Detail Kost Pemilik Kost */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Lato', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+a{
+    text-decoration: none;
+    
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* PAGE DETAIL */
+
+.container-nama{
+    margin-bottom: 30px;
+}
+
+.container-nama .title{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.container-nama .nama .title-nama,
+.container-nama .status .title-status,
+.container-nama .kategori .title-kategori,
+.container-nama .jumlah_kamar .title-jumlah_kamar,
+.container-nama .sisa_jumlah_kamar .title-sisa_jumlah_kamar,
+.container-nama .harga .title-harga,
+.container-nama .alamat .title-alamat,
+.container-nama .link_maps .title-link_maps,
+.container-nama .phone .title-phone,
+.container-nama .deskripsi .title-deskripsi,
+.container-nama .foto .title-foto{
+    font-size: 15px;
+    color: #646469;
+    margin: 0;
+}
+.container-nama .alamat .fill-lokasi,
+.container-nama .alamat .fill-alamat{
+    margin: 0;
+
+}
+
+.truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-height: 20px; /* sesuaikan dengan jumlah baris yang ingin ditampilkan */
+}
+
+.show-more {
+    max-height: none;
+}
+
+.read-more {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container-nama .edit{
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #35b0a7;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container-nama .edit-one{
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #35b0a7;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container-nama .deskripsi-col{
+    position: relative;
+}
+
+.container-nama .edit a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #35b0a7;
+}
+
+.container-nama .edit-one a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #35b0a7;
+}
+
+.container-nama .foto .fill-foto{
+    margin-top: 7px;
+}
+.container-nama .foto .fill-foto a{
+    text-decoration: none;
+    color: #35b0a7;
+    font-weight: 600;
+    border-bottom: 2px solid #35b0a7;
+    
+}
+
+.container-nama .desc .edit-uniq{
+    position: absolute;
+    top: 0;
+    left: 9%;
+    margin-top: -5px;
+}
+
+.container-nama .edit-uniq a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #35b0a7;
+}
+
+.container-nama .edit-uniq{
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #35b0a7;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.container-nama{
+    position: relative;
+}
+.container-nama .house-shape {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 100% 100%, 0% 100%);
+    background-color: #acdcd4;
+    top: -60px;
+    margin-top: -100px;
+}
+  
+.container-nama  .house-text {
+    position: absolute;
+    top: 50%;
+    /* left: 10%; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .container-nama .row-shape .edit{
+    width: max-content;
+    justify-content: center;
+  }
+
+  .navbar .text-kost a{
+    text-decoration: none;
+  }
+
+  .container-foto{
+    margin-top: 120px;
+  }
+
+  .container-foto .detail-pict img{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.container-foto .detail-pict .title-foto-top{
+    font-size: 15px;
+    color: #646469;
+    margin: 0;
+}
+.container-foto .detail-pict .title-foto{
+    font-size: 15px;
+    color: #646469;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.container-foto .edit-one{
+    padding: 3px 5px;
+    background-color: #fff;
+    border: 1px solid #35b0a7;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container-foto .edit-one a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #35b0a7;
+}
+
+.container-foto .col-title{
+    /* border-bottom: 1px solid black; */
+}

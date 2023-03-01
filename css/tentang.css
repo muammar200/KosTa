@@ -1,0 +1,236 @@
+.tentang{
+    margin-top: 100px;
+}
+.tentang .img{
+    background-image: url('../img/tentang.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.tentang .img .color{
+    background-color: black;
+    height: 400px;
+    opacity: 0.6;   
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.tentang .title{
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+}
+
+.present .title{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.present .desc{
+    line-height: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.benefit .card .img{
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+}
+
+.benefit .main-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.benefit .title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.benefit .desc{
+    line-height: 20px;
+}
+
+@media (max-width:576px) {
+    .tentang .title,
+    .present .title{
+        font-size: 27px;
+    }
+
+    .present .title{
+        line-height: 40px;
+    }
+}
+
+.container-about-us{
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 200px;
+   
+}
+
+@media (max-width:777px) {
+    .container-about-us{
+        margin-top: 50px;
+    }
+}
+.row-about-us{
+    display: flex;
+    align-items: center;
+}
+.img-about{
+    position: relative;
+    height: fit-content;        
+}
+
+.row-about-us .image{
+    padding-left: 15%;
+}
+
+.bottom-image{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #888888;
+}
+
+.top-image{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow:10px 10px 10px #888888;
+}
+
+.container-about-us .row-about-us .col-desc .title{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.container-about-us .row-about-us .col-desc .slogan{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 45px;
+    color: #35b0a7;
+    padding: 15px 0 30px;
+}
+
+.container-about-us .row-about-us .col-desc .desc{
+    line-height: 20px;
+}
+
+.tim .title{
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.tim img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.tim .name{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+@media (max-width:1200px) {
+    .bottom-image{
+        width: 250px;
+        height: 350px;
+    }
+    .top-image{
+        width: 200px;
+        height: 250px;
+    }
+}
+
+
+@media(max-width:991.98px) {
+    .container-about-us{
+        flex-direction: row-reverse;
+    }
+            .img-about{
+                order: 2;
+                margin-top: 40px;
+
+            }
+
+            .top-image{
+                width: 250px;
+                height: 300px;
+            }
+
+            .bottom-image{
+                width: 300px;
+                height: 400px;
+            }
+
+            .img-about .image{
+                padding: 0;
+                
+            }
+            .col-desc{
+                order: 1;
+                text-align: center;
+            }
+}
+
+@media (max-width: 481px) {
+    .top-image{
+                width: 200px;
+                height: 250px;
+            }
+
+            .bottom-image{
+                width: 250px;
+                height: 350px;
+            }
+}
+
+@media (max-width: 360px){
+.top-image{
+                width: 170px;
+                height: 220px;
+            }
+
+            .bottom-image{
+                width: 220px;
+                height: 320px;
+            }
+}
+
+@media (max-width: 290px){
+.top-image{
+                width: 150px;
+                height: 200px;
+            }
+
+            .bottom-image{
+                width: 200px;
+                height: 300px;
+            }
+}

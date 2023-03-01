@@ -1,0 +1,109 @@
+td {
+    max-width: 80px;
+    max-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .list .add{
+      background-color: #35b0a7;
+      padding: 40px;
+      color: #f4f5f6;
+      border-radius: 20px 20px 0px 0px;
+      font-size: 22px;
+      font-weight: 600;
+  }
+  
+  .list .add a{
+      color: #f4f5f6;
+  }
+  
+  .list .add a:hover{
+      color: #000;
+  }
+  
+  .table-responsive{
+      background-color: #fff;
+      height: 70vh;
+  }
+  
+  .btn-edit{
+      background-color: #35b0a7;
+      color: #f4f5f6;
+  }
+  
+  .btn-edit:hover{
+      color: #f4f5f6;
+      background-color: #2596be;
+  }
+  
+  */ .table-module{
+      width: 800px;
+  }
+  
+  .table_pendaftaran{
+    position: relative;
+}
+
+@media screen and (max-width:1700px) {
+    .table .aksi{
+        max-width: 200px;
+    }
+}
+
+.kliksini{
+    position: absolute;
+    margin-top: 100px;
+}
+
+.data-count .on{
+    background-color: #9ca4ac;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    width: 49%;
+    border-radius: 20px;
+}
+.data-count .off{
+    background-color: #646464;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    width: 49%;
+    border-radius: 20px;
+}
+.data-count .all{
+    background-color: #35b0a7;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.data-count i{
+    font-size: 50px;
+}
+.data-count .all a{
+    color: #f4f5f6;
+}
+.data-count .on a{
+    color: #f4f5f6;
+}
+.data-count .off a{
+    color: #f4f5f6;
+}
+
+.data-count .number{
+    font-size: 40px;
+    
+    line-height: 20px;
+}

@@ -1,0 +1,474 @@
+    /* SEWAKOST */
+    .sewakost {
+        margin-top: 100px;
+    }
+
+    .sewakost .img {
+        background-image: url('../img/sewaproperti.png');
+        background-size: cover;
+        height: max-content;
+        /* display: flex; */
+        align-items: center;
+    }
+
+    .sewakost {
+        margin-top: 130px;
+    }
+
+    .sewakost .button-more {
+        display: flex;
+    }
+
+    .sewakost .title {
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 58px;
+        color: #f4f5f6;
+        display: flex;
+
+    }
+
+    .img {
+        padding: 100px;
+    }
+
+    .sewakost .desc {
+        line-height: 25px;
+        font-size: 18px;
+        color: #f4f5f6;
+        display: flex;
+        padding: 30px 0;
+    }
+
+    .sewakost .button-more .div-modal .modal-btn {
+        color: #f4f5f6;
+        background-color: #3fccc7;
+        border-radius: 5px;
+        font-size: 18px;
+        padding: 8px 20px;
+        /* font-weight: 600;    */
+    }
+
+    .sewakost .button-more .div-modal .modal-btn:hover {
+        background-color: #00bbb6;
+        color: #f4f5f6;
+    }
+
+    .sewakost .button-more .btn-wa {
+        color: #f4f5f6;
+        background-color: #25d366;
+        border-radius: 5px;
+        font-size: 18px;
+        padding: 11px 20px;
+    }
+
+    .sewakost .button-more .btn-wa:hover {
+        background-color: #1eaa52;
+    }
+
+
+    /* MEDIA QUERIES */
+    @media (max-width: 767.98px) {
+        .sewakost .img {
+            height: max-content;
+            background-position: left center;
+            
+        }
+    
+        .sewakost .button-more {
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: start;         */
+        }
+        
+        .img {
+            padding: 50px;
+        }
+
+        @media (max-width: 576.98px) {      
+        .sewakost{
+            margin-bottom: 10px;
+        }        
+        .img {
+            padding: 20px;
+        }
+
+        .sewakost .title {
+            font-size: 25px;
+            line-height: 38px;
+        }
+
+        .sewakost .desc {
+            line-height: 20px;
+            font-size: 16px;
+            padding: 20px 0;
+        }
+    
+        .sewakost .button-more .div-modal .modal-btn {
+            font-size: 14px;
+            padding: 4px 10px;
+        }
+    
+        .sewakost .button-more .div-modal .modal-btn:hover {
+            background-color: #00bbb6;
+            color: #f4f5f6;
+        }
+    
+        .sewakost .button-more .btn-wa {
+            font-size: 14px;
+            padding: 8px 10px;
+        }
+    
+        .sewakost .button-more .btn-wa:hover {
+            background-color: #1eaa52;
+        }
+
+        @media (max-width:369px) {
+            .img {
+                padding: 10px;
+            }
+    
+            .sewakost .title {
+                font-size: 20px;
+                line-height: 30px;
+            }
+    
+            .sewakost .desc {
+                line-height: 15px;
+                font-size: 14px;
+                padding: 10px 0;
+            }
+        
+            .sewakost .button-more .div-modal .modal-btn {
+                font-size: 12px;
+                padding: 4px 10px;
+            }
+        
+            .sewakost .button-more .btn-wa {
+                font-size: 11px;
+                padding: 8px 10px;
+            }
+
+            @media (max-width:300px){
+                .img {
+                    padding: 7px;
+                }
+        
+                .sewakost .title {
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+        
+                .sewakost .desc {
+                    line-height: 15px;
+                    font-size: 13px;
+                    padding: 10px 0;
+                }
+            
+                .sewakost .button-more .div-modal .modal-btn {
+                    font-size: 10px;
+                    padding: 4px 10px;
+                }
+            
+                .sewakost .button-more .btn-wa {
+                    font-size: 10px;
+                    padding: 7px 10px;
+                }
+    
+            }
+    
+        }
+    
+        }
+    
+        }
+    
+        /* PARTNER */
+    .partner {
+        margin-top: 100px;
+        display: flex;
+    }
+
+    .partner .img-partner {
+        width: 100%;
+        background-size: cover;
+        object-fit: cover;
+        height: 520px;
+    }
+
+    .partner .main-title {
+        font-size: 34px;
+        font-weight: 600;
+    }
+
+    .partner .desc {
+        margin-left: 44px;
+        line-height: 25px;
+    }
+
+    .partner .title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+         /* PARTNER RESPONSIVE */
+         @media (max-width: 991.98px) {
+            .partner .col-img{
+                display: none;
+            }
+
+            .partner .main-title {
+                font-size: 30px;
+            }
+        
+            .partner .title {
+                font-size: 18px;
+            }
+         }
+
+         @media (max-width: 767.98px) {
+            .partner{
+                margin-top: 50px;
+            }
+
+            .partner .main-title {
+                font-size: 27px;
+            }
+        
+            .partner .title {
+                font-size: 15px;
+            }
+         }
+
+         @media (max-width: 567.98px) {
+            .partner{
+                margin-top: 30px;
+            }
+
+            .partner .main-title {
+                font-size: 24px;
+            }
+        
+         }
+         @media (max-width: 329.98px) {
+            .partner{
+                margin-top: 20px;
+            }
+
+            .partner .main-title {
+                font-size: 20px;
+            }
+         }
+
+
+    /* KONTRAK */
+
+    .kontrak .img {
+        background-image: url('../img/kontrak.jpg');
+        height: max-content;
+        margin-top: 100px;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.6);
+        
+    }
+    .kontrak .img.black-overlay {
+    }
+
+
+    .kontrak .color{
+        /* background-color: black; */
+    }
+
+    .kontrak .top-title{
+        width: max-content;
+        background-color: #35b0a7;
+        padding: 20px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 200px;
+        z-index: 99;
+    }
+
+    .kontrak .step-section{
+        margin-top: 20px;
+        /* margin-bottom: auto; */
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+
+    }
+    .kontrak .step-section .number{
+        width: max-content;
+        padding: 10px;
+        font-weight: 600;
+        font-size: 24px;
+        margin-bottom: -8px;
+        margin-left: 10px;
+    }
+
+    .kontrak .step-section .konten{
+        margin: 0 20px;
+    }
+    .kontrak .step-section .card-form{
+        padding: 10px;
+    }
+    .kontrak .step-section .card-text{
+        padding: 30px;
+    }
+
+    .kontrak .step-section .card .title,
+    .kontrak .step-section .card .btn{
+        font-size: 24px;
+    }
+
+    .kontrak .step-section .card .btn{
+        text-decoration: underline;
+        color: #00bbb6;
+        width: max-content;
+        padding: 0;
+    }
+
+    .kontrak .step-section .card .btn:hover{
+        color: #35b0a7;
+    }
+
+    .kontrak {
+        margin-bottom: 100px;
+    }
+
+    @media (max-width: 1399.98px) {
+
+        .kontrak .top-title{
+            margin-bottom: 100px;
+        }
+        .kontrak .step-section{
+            margin-top: 0;
+            display: block;
+            position:static;
+        }
+
+        .kontrak .step-section .konten{
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        .kontrak .step-section .number{
+            width: max-content;
+            padding: 10px;
+            font-weight: 600;
+            font-size: 24px;
+            margin-bottom: -8px;
+            margin-left: 10px;
+        }
+    
+        .kontrak .step-section .card{
+            padding: 20px;
+        }
+
+        .kontrak .step-section .card button{
+            width: max-content;
+            /* background-color: red; */
+            padding: 0px;
+        }
+    
+        .kontrak .step-section .card .title,
+        .kontrak .step-section .card .btn{
+            font-size: 24px;
+        }
+    
+        .kontrak .step-section .card .btn{
+            text-decoration: underline;
+            color: #00bbb6;
+        }
+    
+        .kontrak .step-section .card .btn:hover{
+            color: #35b0a7;
+        }
+    
+
+     }
+
+
+    @media (max-width: 1199.98px) { 
+    
+        .kontrak .top-title{
+            margin-bottom: 100px;
+        }
+
+        .kontrak .step-section .konten{
+            width: 70%;
+            margin-bottom: 20px;
+        }
+     }
+
+     @media (max-width: 991.98px) { 
+        .kontrak .top-title{
+            padding: 15px;
+            font-size: 30px;
+            margin-bottom: 80px;
+        }
+        @media (max-width: 767.98px) { 
+            .kontrak .top-title{
+                font-size: 30px;
+                margin-bottom: 80px;
+                width: 100%;
+            }
+         }
+        @media (max-width: 576.98px) { 
+            .kontrak .top-title{
+                font-size: 30px;
+                margin-bottom: 80px;
+            }
+         }
+         @media (max-width: 467.98px){
+            .kontrak .top-title {
+                width: 100%;
+                line-height: 30px;
+                padding: 10px;
+            }
+         }
+        }
+
+        @media (max-width:576px) {
+            .kontrak .top-title{
+                margin-bottom: 30px;
+                font-size: 20px;
+                width: max-content;
+            }
+            .kontrak .step-section .konten{
+                width: 70%;
+            }
+
+            .kontrak .step-section .konten{
+                text-align: start;
+            }
+
+            .kontrak .step-section .konten .number,
+            .kontrak .step-section .konten .card-text p,
+            .kontrak .step-section .konten .card-form button,
+            .kontrak .step-section .konten .card-form p{
+                font-size: 18px;
+            }
+
+            .kontrak{
+                margin-bottom: 40px;
+            }
+
+            @media (max-width: 467.98px){
+                .kontrak .step-section .konten{
+                    width: 80%;
+                }
+            }
+
+            @media (max-width: 367.98px){
+                .kontrak .top-title{
+                    width: 100%;
+                }
+            }
+        }
+
+        
+
+
+
+

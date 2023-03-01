@@ -1,0 +1,106 @@
+
+    .daftarkos{
+        margin-top: 100px;
+    }
+    .main .card {
+        /* border-radius: 30px; */
+        border: none;
+    }
+
+    .main .card .img {
+        /* border-radius: 30px; */
+    }
+
+    .main .card .img img {
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .main .card .card-body .alamat {
+        color: #646464;
+        font-size: 18px;
+    }
+
+    .main .card .card-body .nama {
+        color: #222222;
+        font-size: 21px;
+        font-weight: 600;
+        padding: 10px 0px;
+    }
+
+    .main .card .card-body .harga {
+        color: #222222;
+        font-size: 18px;
+    }
+
+    .main .card .card-body .kategori{
+        font-size: 14px;
+        width: fit-content;
+        padding: 4px 7px;
+        border-radius: 6px;
+        margin-top: 13px;
+    }
+    .main .card .card-body .putri{
+        color: #eb1d80;
+        background-color: #ffecf5;
+    }
+    .main .card .card-body .putra{
+        color: #2a7de1;
+        background-color: #d4e5f9;
+    }
+    .main .card .card-body .putra_putri{
+    color: #7e57c5;
+    background-color: #e5ddf3;
+    }
+
+    a .img-fit{    
+        object-fit: cover;
+        height: 36px;
+        width: 50px;
+    }
+
+    .putri, .putra, .putra_putri{
+        /* background-color: #2a7de1; */
+    }
+
+    .kategori .putri p,
+    .kategori .putra p,
+    .kategori .putra_putri p{
+        color: #000;
+    }
+    .kategori .putri-active p,
+    .kategori .putra-active p,
+    .kategori .putra_putri-active p{
+        color:#00bbb6;
+    }
+
+    .kategori .ul-kategori{
+    }
+    .card-daftar-kost{
+        position: relative;
+    }
+
+    .sisa_jumlah_kamar_wait{
+        background-color: #fff;
+        width: max-content;
+        position: absolute;
+        font-weight: 600;
+        font-size: 15px;
+        top: 0;
+        margin: 8px;
+        padding: 7px;
+        right: 0;
+    }
+
+    .sisa_jumlah_kamar{
+        background-color: #ff5e69;
+        width: max-content;
+        position: absolute;
+        top: 0;
+        margin: 8px;
+        padding: 7px;
+        font-weight: 600;
+        color: #f4f5f6;
+        font-size: 15px;
+        right: 0;
+    }

@@ -1,0 +1,1108 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Lato', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+a{
+    text-decoration: none;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* NAVBAR */
+
+.navbar .container-fluid .text-logo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar .container-fluid ul li a{
+    color: rgb(36, 36, 36);
+}
+
+.navbar .container-fluid  .ul li .nav-link:hover{
+    border-bottom: 2px solid #35b0a7;
+}
+.navbar .container-fluid  .ul li .active-visible{
+    border-bottom: 2px solid #35b0a7;
+}
+
+
+.navbar .container-fluid .menu li .bi-person{
+    font-size: 22px;
+    color: #35b0a7;
+    background-color: #35b0a7;
+}
+.navbar .container-fluid .menu li a{
+    font-size: 18px;
+}
+.navbar .container-fluid .menu li .login{
+    transition: 0.9s;
+
+}
+
+.navbar .container-fluid .div-margin{
+    margin-left: 40px;
+}
+.navbar .container-fluid .menu li .whatsapp{
+    background-color: #25d165;
+    padding: 8px 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    cursor: pointer;
+}
+.navbar .container-fluid .menu .icon-person{
+    cursor: pointer;
+}
+.navbar .container-fluid .menu .icon-person:hover a{
+    text-decoration: underline;
+}
+.navbar .container-fluid .menu li .whatsapp a,
+.navbar .container-fluid .menu li .whatsapp i
+{
+    color: #fff;
+
+}
+
+.navbar .container-fluid .menu li .whatsapp:hover a{
+    text-decoration: underline;
+}
+
+.navbar .container-fluid .menu li .whatsapp .text-wa{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-profile{
+    border: none;
+    background-color: #fff;
+}
+
+#nama, #logout{
+    font-size: 16px;
+}
+
+#dashboard{
+    margin-bottom: 10px;
+}
+
+#keluar i,
+#dashboard i{
+    color: #3fccc7;
+}
+#dashboard i{
+    font-size: 15px;
+}
+
+#keluar:hover,
+#dashboard:hover{
+    background-color: #e7f3f2;
+    padding: 5px 0px;    
+}
+
+@media (max-width: 1273px) { 
+    .navbar .container-fluid .menu li a{
+        font-size: 14px;
+    }
+    .navbar .container-fluid #navbarText li .nav-link{
+        font-size: 14px;
+    }
+ }
+
+ @media (max-width: 1083px){
+    .nav-item .whatsapp .text-wa{
+        display: none;   
+    }
+        .navbar .container-fluid .menu li .whatsapp{
+        padding: 4px 10px;
+    }
+ }
+
+@media screen and (min-width: 999px) {
+    .navbar{
+        /* position: relative; */
+    }
+    .navbar #nav-none {
+        display: none;
+        background-color: red;
+        position: absolute;
+        margin-bottom: 1000px;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .navbar #nav-none {
+        margin-left: auto;
+        display: block;
+        /* background-color: red; */
+    }
+    .navbar #nav-none .whatsapp{
+        background-color: #25d165;
+        padding: 8px 20px;
+        color: #f4f5f6;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+}
+    .navbar #nav-none .whatsapp .text-wa{
+        color: #f4f5f6;
+    }
+}
+
+@media (max-width: 991.98px) {
+    #navbarText .menu li {
+        display: none;
+    }
+    .navbar .container-fluid .div-margin{
+        margin: 0;
+    }
+ }
+
+ @media (max-width: 767.98px) {
+    .navbar #nav-none .whatsapp .text-wa{
+        display: none;
+    }
+    .navbar #nav-none .whatsapp{
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        padding: 8px 10px;
+        margin: 0;
+}
+ }
+
+ @media (max-width: 500px) {
+    #nav-none .masuk_daftar{
+        background-color: red;
+        display: none;
+    }
+    #nav-none .profile_none{
+        display: none;
+    }
+
+ }
+
+ @media (max-width: 370px) {
+    #nav-none{
+        position: relative;
+    }
+    #nav-none .icon-person{
+        /* background-color: red; */
+        position: absolute;
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+    #nav-none .drop-none{
+        position: absolute;
+        margin-top: -5px;
+    }
+
+    .navbar #nav-none .whatsapp{
+        background-color: none;
+        padding: 0px;
+        color: #f4f5f6;
+        border-radius: none;
+        -webkit-border-radius: none;
+        -moz-border-radius: none;
+        -ms-border-radius: none;
+        -o-border-radius: none;
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -10px;
+        display: none;
+}
+.navbar #nav-none .whatsapp .bi-whatsapp{
+    color: #f4f5f6;
+    font-size: 20px;
+
+}
+ }
+
+
+
+/* LOGIN */
+.login .masuk, .daftar{
+    color: #000000;    
+}
+.login .active{
+    padding-bottom: 14px;
+    color: #35b0a7;
+    border-bottom: 2px solid #35b0a7;
+    font-weight: 600;
+}
+.login .btn-login{
+    background-color: #35b0a7;
+    color: #fff;
+    font-weight: 500;
+    width: 100%;
+}
+.login .btn-login:hover{
+    background-color: #35b5a7;
+    color: #fff;
+}
+.space-login{
+    height: 100px;
+}
+
+.log-admn{
+    font-size: 22px;
+}
+
+
+/* REGISTER */
+.register .masuk,
+    .register .daftar {
+        color: #000000;
+    }
+
+   .register .active {
+        padding-bottom: 14px;
+        color: #35b0a7;
+        border-bottom: 2px solid #35b0a7;
+        font-weight: 600;
+    }
+
+    .register .btn-register {
+        background-color: #35b0a7;
+        color: #fff;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .register .btn-register:hover {
+        background-color: #35b5a7;
+        color: #fff;
+    }
+
+    .space-regist {
+        height: 100px;
+    }
+
+/* FOOTER */
+.footer{
+    background-color: #35b0a7;
+    color: #fff;
+}
+
+.footer .title{
+    font-size: 22px;
+    padding-top: 24px;
+}
+
+.footer .logo a{
+    color: #000;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.footer .bi{
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.footer .copy-right p{
+    line-height: 30px;
+    font-size: 18px;
+}
+
+/* FILE MAIN.PHP */
+
+.first-title .top-title{
+    margin-top: 100px;
+  }
+
+  .img-responsive{
+  height:100%;
+  object-fit:cover;
+} 
+
+
+.container .top-title{
+    font-size: 28px;
+    font-weight: 600;
+}
+.main .card {
+    /* border-radius: 30px; */
+    border: none;
+}
+
+.main .card .img img {
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.main .card .card-body .alamat {
+    color: #646464;
+    font-size: 18px;
+}
+
+.main .card .card-body .nama {
+    color: #222222;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.main .card .card-body .harga {
+    color: #222222;
+    font-size: 18px;
+}
+
+.main .card .card-body .kategori {
+    font-size: 14px;
+    width: fit-content;
+    padding: 4px 7px;
+    border-radius: 6px;
+    margin-top: 13px;
+}
+
+.main .card .card-body .putri {
+    color: #eb1d80;
+    background-color: #ffecf5;
+}
+
+.main .card .tautan{
+    color: #000;
+    margin-top: 5px;
+}
+
+.main .card .card-body .putra {
+    color: #2a7de1;
+    background-color: #d4e5f9;
+}
+
+.main .card .card-body .putra_putri {
+    color: #7e57c5;
+    background-color: #e5ddf3;
+}
+
+a .img-fit {
+    object-fit: cover;
+    height: 36px;
+    width: 50px;
+}
+
+.putri,
+.putra,
+.putra_putri {
+    /* background-color: #2a7de1; */
+}
+
+.kategori .putri p,
+.kategori .putra p,
+.kategori .putra_putri p {
+    color: #000;
+}
+
+.kategori .putri-active p,
+.kategori .putra-active p,
+.kategori .putra_putri-active p {
+    color: #00bbb6;
+}
+
+.card-daftar-kost{
+    position: relative;
+}
+
+.sisa_jumlah_kamar_wait{
+    background-color: #fff;
+    width: max-content;
+    position: absolute;
+    font-weight: 600;
+    font-size: 15px;
+    top: 0;
+    margin: 8px;
+    padding: 7px;
+}
+
+.sisa_jumlah_kamar{
+    background-color: #ff5e69;
+    width: max-content;
+    position: absolute;
+    top: 0;
+    margin: 8px;
+    padding: 7px;
+    font-weight: 600;
+    color: #f4f5f6;
+    font-size: 15px;
+}
+
+/* SERVICE */
+
+.offer .pict-pemilik {
+    background-image: url('../img/pemilik-kost.png');
+    background-size: cover;
+    height: 400px;
+    width: 48%;
+}
+.offer .pict-pencari {
+    background-image: url('../img/pencari-kost.png');
+    background-size: cover;
+    height: 400px;
+    width: 48%;
+    background-position: center;
+}
+
+.btn-daftar-kost{
+    background-color: #3fccc7;
+    width: 100%;
+    color: #fff;
+}
+
+.btn-daftar-kost:hover{
+    background-color: #00bbb6;
+    color: #fff;
+    /* margin-top: 40px; */
+}
+
+.modal-footer .whatsapp a{
+    color: #25d165;
+}
+
+.modal-footer .whatsapp a:hover{
+    border-bottom: 1px solid #25d165;
+}
+
+.offer .pict-pemilik,
+.offer .pict-pencari{
+    display: flex;
+    align-items: center;        
+}
+.offer .pict-pemilik .pemilik
+{   
+    width: 40%;
+    margin-left: auto;
+}
+.offer .pict-pencari .pencari
+{   
+    width: 40%;
+    margin-right: auto;
+}
+
+.offer .pict-pemilik .div-modal{
+    
+    background-color: #3fccc7;
+    width: fit-content;
+    justify-content: end;
+    margin-left: auto;
+    border-radius: 5px;             
+}
+
+.offer .pict-pencari .div-cari{
+    background-color: #eb86c8;
+    width: fit-content;
+    justify-content: end;
+    margin-right: auto;
+    border-radius: 5px;
+    
+}
+.offer .pict-pencari .div-cari a{
+    color: #fff;
+}
+
+.offer .pict-pemilik .div-modal:hover
+{
+    background-color: #00bbb6;
+}
+
+.offer .pict-pencari .div-cari:hover{
+    background-color: #f38680;
+}
+
+.offer .pict-pemilik .div-modal .btn,
+.offer .pict-pemilik .div-cari{
+    color: #fff;
+}
+
+.offer .pict-pemilik .desc{
+    color: #fff;
+    margin-left: auto;
+}
+
+.offer .pict-pencari .desc{
+    color: #fff;
+}
+
+.offer .pict-pemilik .desc .title,
+.offer .pict-pencari .desc .title{
+    font-size  : 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.offer .pict-pemilik .desc .description,
+.offer .pict-pencari .desc .description{
+    padding-bottom: 20px;
+}
+
+.pict-pemilik .data-kost{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ammar #carouselExampleInterval .carousel-inner{
+        height: 400px;    
+        text-align: center;
+    }
+
+    .ammar #carouselExampleInterval .carousel-inner img{
+        margin: auto;
+    }
+@media (max-width:1400px) {
+    .ammar #carouselExampleInterval .carousel-inner{
+        height: 300px;    
+    }
+}
+
+@media (max-width:1200px) {
+    .ammar #carouselExampleInterval .carousel-inner{
+        height: 290px;    
+    }
+}
+
+@media (max-width: 991.98px) { 
+    .ammar #carouselExampleInterval .carousel-inner{
+        height: 200px;    
+    }
+ }
+@media (max-width: 771.98px) { 
+    .ammar #carouselExampleInterval .carousel-inner{
+        height: 180px;    
+    }
+ }
+@media (max-width: 435.98px) { 
+    .ammar #carouselExampleInterval .carousel-inner{
+        height: 150px;    
+    }
+ }
+.step .top p{
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+.step .step-section .title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* RESPONSIVE */
+/* STEP */
+@media (max-width: 576px) {
+    .step-section {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .step-section img {
+        margin: 0 auto;
+        width: 80px;
+    }
+    .step-section .title {
+        font-size: 18px;
+    }
+}
+
+/* OFFER */
+@media (max-width: 770px) {
+    .container-offer .offer .pict-pemilik,
+    .container-offer .offer .pict-pencari{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 520px){
+    
+    .offer .pict-pemilik .pemilik
+    {   
+        width: 60%;
+        margin-left: auto;
+    }
+    .offer .pict-pencari .pencari
+    {   
+        width: 60%;
+        margin-right: auto;
+    }
+    
+    .offer .pict-pemilik .desc .title,
+    .offer .pict-pencari .desc .title{
+        font-size  : 30px;
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    
+    .offer .pict-pemilik .desc .description,
+    .offer .pict-pencari .desc .description{
+        padding-bottom: 20px;
+    }
+    
+    .pict-pemilik .data-kost{
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width:422px) {
+    .offer .pict-pemilik .pemilik
+    {   
+        width: 80%;
+        margin-left: auto;
+    }
+    .offer .pict-pencari .pencari
+    {   
+        width: 80%;
+        margin-right: auto;
+    }
+}
+
+/* PAGE DETAIL */
+
+.detail{
+    margin-top: 150px;
+}
+.detail-pict {
+    border-radius: 3px;
+}
+
+.detail-pict img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.detail-pict .kamar {
+    padding-bottom: 3px;
+}
+
+.detail-pict .bangunan,
+.kamar,
+.teras,
+.wc {
+    padding: 0 3px;
+}
+
+.detail-pict .bangunan img {
+    border-radius: 7px 0 0 7px;
+}
+
+.detail-pict .kamar img {
+    border-radius: 0 7px 0 0;
+}
+
+.detail-pict .wc img {
+    border-radius: 0 0 7px 0;
+}
+
+.detail-desc .harga {
+    font-size: 24px;
+    font-weight: 600;
+    color: #35b0a7;
+    padding: 18px 18px 25px 18px;
+}
+
+.detail-desc .harga .month {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+
+}
+
+.detail-desc .nama {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.detail-desc .alamat{
+    margin-bottom: 0px;
+    margin: 10px 0;
+    width: max-content;
+}
+
+.detail-desc .tautan{
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.detail-desc .contact {
+    background-color: #25d165;
+    padding: 10px 18px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.detail-desc .kategori .putri{
+    color: #eb1d80;
+    background-color: #ffecf5;
+}
+.detail-desc .kategori .putra{
+    color: #2a7de1;
+    background-color: #d4e5f9;
+    width: max-content;
+}
+.detail-desc .kategori .putra_putri{
+    color: #eb1d80;
+    background-color: #ffecf5;
+    width: max-content;
+}
+
+.detail-desc .kategori .putri,
+.detail-desc .kategori .putra,
+.detail-desc .kategori .putra_putri{
+    width: max-content;
+    padding: 5px 7px;
+    border-radius: 4px;
+}
+ .desc-deskripsi .title{
+    font-weight: 600;
+    font-size: 18px;
+ }
+.desc-deskripsi .lengkap{
+    color: #61605a;
+
+}
+
+.hr-detail-sm{
+    display: none;
+}
+
+@media (max-width: 991.98px) { 
+    .hr-detail-sm{
+    display:block;
+}
+
+.hr-detail-lg{
+    display: none;
+}
+}
+@media (max-width:576px) {
+    .bangunan img{
+        height: 200px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .detail-desc .card{
+        /* width: 50%; */
+    }
+
+    .detail-desc .harga {
+    font-size: 16px;
+    font-weight: 600;
+    color: #35b0a7;
+    padding: 11px 11px 17px 11px;
+}
+
+.detail-desc .harga .month {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+ }
+
+ @media (max-width: 424px){
+    .detail-desc .harga {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 9px 9px 14px 9px;
+}
+
+.detail-desc .alamat p{
+    font-size: 12px;
+}
+
+.detail-desc .harga .month {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.detail-desc .nama {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.detail-desc .contact {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.detail-desc .kategori .putri,
+.detail-desc .kategori .putra,
+.detail-desc .kategori .putra_putri{
+    width: max-content;
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+ .desc-deskripsi .title{
+    font-weight: 600;
+    font-size: 18px;
+ }
+ }
+
+
+/* My ACOUNT */
+
+.container-edit-info .top-title p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #222222;
+}
+
+/* MY PROFILE */
+.container-profile {
+    /* margin-top: 150px; */
+    position: relative;
+}
+
+.container-profile p{
+    text-transform: capitalize;
+}
+
+.container-profile .img-foto{
+    background-color: #ebf3f3;
+    width: max-content;
+    border-radius: 100%;
+    border: 1px solid #3db3ab;
+    /* margin-bottom: 25px; */
+    position: absolute;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+.container-profile .img-foto .inisial{
+    font-size: 44px;
+    font-weight: 400;
+    padding: 30px 40px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    color: #4f5050;
+}
+.container-profile .div-nama{
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-profile .div-nama a{
+    font-weight: 600;
+    font-size: 14px;
+    color: #35b0a7;
+    padding: 10px;
+    border: 1px solid #35b0a7; 
+    border-radius: 5px;    
+}
+
+
+.container-profile .div-nama .hov .edit:hover{
+    border-bottom: 2px solid #35b0a7;
+}
+.container-profile .nama{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 80px ;
+}
+
+.container-profile .email{
+    margin: 10px 0px 25px 0px;
+}
+
+.container-profile .email p{
+    text-transform: none;
+}
+
+.container-profile .setting{
+    margin: 30px 0;
+}
+.container-profile .setting a{
+    color: #35b0a7;
+    font-weight: 600;
+    /* background-color: #ebf3f3; */
+    font-size: 18px;
+}
+
+.container-profile .setting a:hover{
+    background-color: #ebf3f3;
+    padding: 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    /* border-bottom: 2px solid #35b0a7; */
+}
+
+.container-profile .email .cont-email,
+.container-profile .no-hp .cont-phone{
+    background-color: #ebf3f3;
+    width: max-content;
+    padding: 5px 8px;
+    border-radius: 4px;     
+    font-size: 18px;   
+}
+
+
+.container-profile .email .title-email,
+.container-profile .no-hp .title-no-hp{
+    margin-bottom: 10px;
+}
+
+.container-profile .no-hp{
+}
+
+
+/*EDIT PROFILE */
+
+.container-edit-info .top-title{
+    margin-bottom: 20px;
+}
+
+.container-edit-info .main-title p{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container-edit-info .uniq-title{
+    margin-bottom: 12px;
+}
+
+
+.container-edit-info .title{
+    font-size: 15px;
+    color: #646469;
+    padding: 10px 0;
+    /* margin-bottom: 10px; */
+}
+
+.container-edit-info .edit{
+    padding: 8px;
+    background-color: #fff;
+    border: 1px solid #35b0a7;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #35b0a7;
+    font-weight: 600;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.container-edit-info .edit a{
+    color: #35b0a7;
+    font-weight: 600;
+}
+
+.container-edit-info .edit a:hover{
+    border-bottom: 1px solid #35b0a7;
+}
+
+
+/* Edit Personal Info */
+.container-personal-info .top-title{
+    margin: 20px 0;
+}
+
+.container-personal-info .top-title p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container-personal-info .title{
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #646469;
+}
+
+.container-personal-info button{
+    background-color: #35b0a7;
+    color: #f4f5f6;
+    border: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-size: 18px;
+}
+
+.container-personal-info .top-title-hp{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.container-setting .main-title p{
+    margin: 10px 0;
+}
+.container-setting .main-title p{
+    /* margin-bottom: 190px; */
+}
+
+.daftar-tunggu .div-alamat a{
+    /* background-color: #4f5050; */
+    color: red;
+    font-size: 20px;
+    /* padding: 6px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px; */
+}
+
